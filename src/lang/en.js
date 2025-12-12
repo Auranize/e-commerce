@@ -1,22 +1,55 @@
 export default {
-  navbar_offer: "Enjoy Free Shipping on Every Order – No Minimums!",
-  brand_name: "Watch Lab",
-  search_placeholder: "Search for watches...",
-  
-  nav_home: "HOME",
-  nav_collection: "COLLECTION",
-  nav_new_arrivals: "NEW ARRIVALS",
-  nav_about: "ABOUT",
-  nav_contact: "CONTACT",
+    // NAVBAR
+    navbar_offer: "Enjoy Free Shipping on Every Order!",
+    brand_name: "Watch Lab",
+    search_placeholder: "Search for watches...",
 
-  nav_hello_user: "Hello, User",
-  nav_profile: "My Profile",
-  nav_orders: "My Orders",
-  logout: "Logout",
+    nav_home: "HOME",
+    nav_collection: "COLLECTION",
+    nav_new_arrivals: "NEW ARRIVALS",
+    nav_about: "ABOUT",
+    nav_contact: "CONTACT",
 
-  cat_luxury: "Luxury Watches",
-  cat_sport: "Sport Watches",
-  cat_smart: "Smart Watches",
-  cat_classic: "Classic Watches",
-  cat_limited: "Limited Editions",
+    nav_hello_user: "Hello, User",
+    nav_profile: "My Profile",
+    nav_orders: "My Orders",
+    logout: "Logout",
+
+    cat_luxury: "Luxury Watches",
+    cat_sport: "Sport Watches",
+    cat_smart: "Smart Watches",
+    cat_classic: "Classic Watches",
+    cat_limited: "Limited Editions",
+
+    // HERO SECTION
+    hero_tagline: "PREMIUM COLLECTION",
+    hero_title_before: "Discover Our",
+    hero_title_highlight: "Latest Arrivals",
+    hero_description: "Explore our handpicked selection of premium products designed for modern lifestyles.",
+    hero_cta: "SHOP NOW",
+
+
+
+    // Latest Collection Section
+    latest_new_arrivals: "NEW ARRIVALS",
+    latest_title: "Latest Collections",
+    latest_subtitle:
+        "Explore our newest timepieces that blend sophistication with innovation. Each piece is crafted with meticulous attention to detail and exceptional quality.",
+    latest_cta: "View Collection",
+
+    // Tabs
+    tab_all: "All",
+    tab_watches: "Watches",
+    tab_accessories: "Accessories",
+    tab_limited: "Limited Edition",
+
+    // Best Seller Section
+    best_customer_favorites: "CUSTOMER FAVORITES",
+    best_title: "Our Best Sellers",
+    best_subtitle:
+        "Discover our most sought-after timepieces, crafted with exceptional precision and timeless appeal.",
+    best_cta: "View All Best Sellers",
+
 };
+
+
