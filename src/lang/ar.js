@@ -50,4 +50,23 @@ export default {
     best_cta: "عرض جميع الساعات الأكثر مبيعًا",
 
 
+
+    // OurPolicy Section
+    policy_main_title: "تجربة عملاء استثنائية",
+    policy_main_subtitle:
+        "نلتزم بتقديم أفضل تجربة خدمة في كل تفاعل مع عملائنا.",
+
+    policy_expert_consultation_title: "استشارات خبراء",
+    policy_expert_consultation_desc: "احصل على نصائح مخصصة من مختصي الساعات لدينا",
+
+    policy_support_title: "دعم على مدار الساعة",
+    policy_support_desc: "فريقنا متواجد لمساعدتك في أي وقت",
+
+    policy_authenticity_title: "ضمان الأصالة",
+    policy_authenticity_desc: "كل ساعة يتم التحقق منها بواسطة خبرائنا",
+
+    policy_live_chat_title: "دعم الدردشة المباشرة",
+    policy_live_chat_desc: "تواصل فورياً مع فريق خدمة العملاء",
+
+
 };

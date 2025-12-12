@@ -50,6 +50,25 @@ export default {
         "Discover our most sought-after timepieces, crafted with exceptional precision and timeless appeal.",
     best_cta: "View All Best Sellers",
 
+
+
+    // OurPolicy Section
+    policy_main_title: "Exceptional Customer Experience",
+    policy_main_subtitle:
+        "We're committed to providing an outstanding service experience with every interaction.",
+
+    policy_expert_consultation_title: "Expert Consultation",
+    policy_expert_consultation_desc: "Get personalized advice from our watch specialists",
+
+    policy_support_title: "24/7 Support",
+    policy_support_desc: "Our team is available around the clock to assist you",
+
+    policy_authenticity_title: "Authenticity Guaranteed",
+    policy_authenticity_desc: "Every timepiece verified by our expert craftsmen",
+
+    policy_live_chat_title: "Live Chat Support",
+    policy_live_chat_desc: "Connect instantly with our customer care team",
+
 };
 
 
