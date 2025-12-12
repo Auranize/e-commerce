@@ -69,6 +69,44 @@ export default {
     policy_live_chat_title: "Live Chat Support",
     policy_live_chat_desc: "Connect instantly with our customer care team",
 
+    // Newsletter Section
+    newsletter_title: "Join Our Timekeepers Club",
+    newsletter_subtitle:
+        "Subscribe to receive updates on new arrivals, limited editions, and special promotions.",
+    newsletter_placeholder: "Enter your email",
+    newsletter_button: "SUBSCRIBE",
+
+
+    // Footer
+    footer_brand_name: "WatchLab",
+    footer_about_text:
+        "At WatchLab, we curate the finest timepieces that blend craftsmanship, innovation, and style. Whether you're a collector or a new buyer, our collection offers unmatched quality and timeless appeal.",
+
+    footer_company_title: "COMPANY",
+    footer_home: "Home",
+    footer_about: "About Us",
+    footer_collection: "Collection",
+    footer_contact: "Contact Us",
+    footer_feedback: "Submit Feedback",
+
+    footer_policies_title: "OUR POLICIES",
+    footer_payment_policy: "Payment Policy",
+    footer_refund_policy: "Refund Policy",
+    footer_shipping_policy: "Shipping Policy",
+    footer_terms: "Terms & Conditions",
+    footer_privacy: "Privacy Policy",
+    footer_warranty: "Warranty Policy",
+    footer_return: "Return Policy",
+    footer_faq: "FAQ",
+
+    footer_contact_title: "Get in Touch (24/7)",
+    footer_address: "Malappuram, Kerala, India",
+
+    footer_copyright:
+        "Copyright 2025 ©",
+    footer_rights: "All Rights Reserved",
+
+
 };
 
 
