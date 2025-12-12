@@ -23,18 +23,28 @@ import PaymentPolicy from './pages/PaymentPolicy';
 import WarrantyPolicy from './pages/WarrantyPolicy';
 import FAQ from './pages/FAQs';
 import ReturnPolicy from './pages/ReturnPolicy';
+import { useContext, useEffect } from "react";
+import { ShopContext } from "./context/ShopContext.jsx";
+
 
 const App = () => {
+  const { language } = useContext(ShopContext);
+
+  useEffect(() => {
+    document.documentElement.dir = language === "ar" ? "rtl" : "ltr";
+  }, [language]);
+
+  
   return (
     <div className="flex flex-col min-h-screen">
       <Toaster position="top-right" reverseOrder={false} />
-      
+
       {/* Full width components */}
       <div className="w-full">
         <Navbar />
         <SearchBar />
       </div>
-      
+
       {/* Main content */}
       <main className="flex-grow p-4">
         <Routes>
@@ -60,7 +70,7 @@ const App = () => {
           <Route path='/return-policy' element={<ReturnPolicy />} />
         </Routes>
       </main>
-      
+
       {/* Full width footer */}
       <div className="p-4">
         <Footer />
