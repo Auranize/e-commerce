@@ -1,9 +1,10 @@
-import React, { useContext, useEffect, useState, useRef } from 'react';
+import { useContext, useEffect, useState, useRef } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
 import { ShopContext } from '../context/ShopContext';
 import { assets } from '../assets/assets';
 import RelatedProducts from '../components/RelatedProducts';
 import toast from 'react-hot-toast';
+import { useT } from '../hooks/useT';
 
 const Product = () => {
   const navigate = useNavigate();
@@ -11,6 +12,7 @@ const Product = () => {
   const { productId } = useParams();
   const { products = [], currency, addToCart } = useContext(ShopContext);
   const videoRef = useRef(null);
+  const t = useT();
 
   const [productData, setProductData] = useState(null);
   const [mediaType, setMediaType] = useState('image'); // 'image' or 'video'
@@ -141,7 +143,7 @@ const Product = () => {
       <div className="flex items-center justify-center h-96">
         <div className="text-center">
           <div className="w-16 h-16 border-4 border-gray-200 border-t-black rounded-full animate-spin mx-auto mb-4"></div>
-          <p className="text-lg text-gray-600">Loading product...</p>
+          <p className="text-lg text-gray-600">{t('product_loading')}</p>
         </div>
       </div>
     );
@@ -176,7 +178,7 @@ const Product = () => {
                     <img
                       className={`w-full h-auto transition-opacity duration-300 ${imageLoading[media.src] ? 'opacity-100' : 'opacity-0'}`}
                       src={media.src}
-                      alt={`Product Media ${index + 1}`}
+                      alt={`${t('product_media_alt')} ${index + 1}`}
                       onLoad={() => handleImageLoad(media.src)}
                     />
                   </>
@@ -207,7 +209,7 @@ const Product = () => {
                 <img 
                   className={`w-full h-auto transition-opacity duration-500 ${mainImageLoaded ? 'opacity-100' : 'opacity-0'}`}
                   src={selectedMedia} 
-                  alt="Selected Product" 
+                  alt={t('product_selected')} 
                   onLoad={() => setMainImageLoaded(true)}
                 />
                 <div className="absolute inset-0 bg-black opacity-0 group-hover:opacity-5 transition-opacity duration-300"></div>
@@ -234,7 +236,7 @@ const Product = () => {
               <img key={i} src={assets.star_icon} alt="Star" className="w-4" />
             ))}
             <img src={assets.star_dull_icon} alt="Star" className="w-4" />
-            <p className="pl-2 text-gray-600">(122 reviews)</p>
+            <p className="pl-2 text-gray-600">{t('product_reviews')}</p>
           </div>
           
           <div className="flex items-center mt-5">
@@ -243,7 +245,7 @@ const Product = () => {
               <>
                 <p className="text-xl text-gray-400 line-through ml-3">{currency}{productData.discount}</p>
                 <p className="text-sm text-green-600 ml-3">
-                  {Math.round(((productData.discount - productData.price) / productData.discount) * 100)}% off
+                  {Math.round(((productData.discount - productData.price) / productData.discount) * 100)}{t('product_off')}
                 </p>
               </>
             )}
@@ -253,7 +255,7 @@ const Product = () => {
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
             </svg>
-            In Stock
+            {t('product_in_stock')}
           </div>
           
           <p className="mt-5 text-gray-600 md:w-4/5 leading-relaxed whitespace-pre-line">{productData.description}</p>
@@ -261,7 +263,7 @@ const Product = () => {
           {/* Features if available */}
           {productData.features && productData.features.length > 0 && (
             <div className="mt-5">
-              <p className="font-medium mb-2">Features:</p>
+              <p className="font-medium mb-2">{t('product_features')}</p>
               <ul className="list-disc list-inside text-gray-600 ml-2">
                 {productData.features.map((feature, index) => (
                   <li key={index} className="mb-1">{feature}</li>
@@ -276,18 +278,18 @@ const Product = () => {
               <tbody>
                 {productData.movement && (
                   <tr className="border-b">
-                    <td className="py-2 px-4 font-medium bg-gray-50">Movement</td>
+                    <td className="py-2 px-4 font-medium bg-gray-50">{t('product_movement')}</td>
                     <td className="py-2 px-4">{productData.movement}</td>
                   </tr>
                 )}
                 {productData.strapMaterial && (
                   <tr className="border-b">
-                    <td className="py-2 px-4 font-medium bg-gray-50">Strap Material</td>
+                    <td className="py-2 px-4 font-medium bg-gray-50">{t('product_strap_material')}</td>
                     <td className="py-2 px-4">{productData.strapMaterial}</td>
                   </tr>
                 )}
                 <tr>
-                  <td className="py-2 px-4 font-medium bg-gray-50">Category</td>
+                  <td className="py-2 px-4 font-medium bg-gray-50">{t('product_category')}</td>
                   <td className="py-2 px-4">{productData.category} / {productData.subCategory}</td>
                 </tr>
               </tbody>
@@ -297,7 +299,7 @@ const Product = () => {
           {/* Colour selection */}
           {productData?.colours?.length > 0 && (
             <div className="flex flex-col gap-4 my-8">
-              <p className="font-medium">Select colour</p>
+              <p className="font-medium">{t('product_select_colour')}</p>
               <div className="flex flex-wrap gap-2">
                 {productData.colours.map((item, index) => (
                   <button
@@ -321,17 +323,17 @@ const Product = () => {
             <button
               onClick={async () => {
                 if (!size && productData?.colours?.length > 0) {
-                  toast.error('Please select a colour.');
+                  toast.error(t('product_select_colour_error'));
                   return;
                 }
                 const added = await addToCart(productData._id, size);
                 console.log(added);
 
                 if (added) {
-                  toast.success('Item added to cart!');
+                  toast.success(t('product_added_to_cart'));
                   navigate('/cart');
                 } else {
-                  toast.error('Please Login with Account');
+                  toast.error(t('product_login_required'));
                   navigate("/login");
                 }
               }}
@@ -340,13 +342,13 @@ const Product = () => {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
               </svg>
-              ADD TO CART
+              {t('product_add_to_cart')}
             </button>
             <button className="border border-black px-8 py-3 text-sm font-medium rounded-sm transition hover:bg-gray-100 w-full sm:w-auto flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
               </svg>
-              WISHLIST
+              {t('product_wishlist')}
             </button>
           </div>
 
@@ -356,7 +358,7 @@ const Product = () => {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              <p>100% Quality product.</p>
+              <p>{t('product_quality_guarantee')}</p>
             </div>
             {/* <div className="flex items-start">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -368,7 +370,7 @@ const Product = () => {
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2 text-green-600 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
               </svg>
-              <p>Easy return and exchange policy within 7 days</p>
+              <p>{t('product_return_policy')}</p>
             </div>
           </div>
         </div>
@@ -381,20 +383,20 @@ const Product = () => {
             onClick={() => setTabView('description')}
             className={`px-5 py-3 text-sm font-medium transition ${tabView === 'description' ? 'border-b-2 border-black' : 'text-gray-500 hover:text-gray-700'}`}
           >
-            Description
+            {t('product_description')}
           </button>
           <button 
             onClick={() => setTabView('reviews')}
             className={`px-5 py-3 text-sm transition ${tabView === 'reviews' ? 'border-b-2 border-black font-medium' : 'text-gray-500 hover:text-gray-700'}`}
           >
-            Reviews (122)
+            {t('product_reviews_tab')}
           </button>
         </div>
         
         {tabView === 'description' && (
           <div className="flex flex-col gap-4 py-6 text-sm text-gray-600 leading-relaxed">
-            <p>An e-commerce website is an online platform that facilitates buying and selling the products online.</p>
-            <p>E-commerce websites typically display products or services along with detailed product information for users to find it easy for purchasing.</p>
+            <p>{t('product_description_text_1')}</p>
+            <p>{t('product_description_text_2')}</p>
           </div>
         )}
         
@@ -404,7 +406,7 @@ const Product = () => {
               <div className="flex-1">
                 <div className="flex items-center">
                   <p className="text-3xl font-medium">4.2</p>
-                  <p className="text-sm text-gray-500 ml-2">out of 5</p>
+                  <p className="text-sm text-gray-500 ml-2">{t('product_out_of')}</p>
                 </div>
                 <div className="flex mt-1">
                   {[...Array(4)].map((_, i) => (
@@ -412,16 +414,16 @@ const Product = () => {
                   ))}
                   <img src={assets.star_dull_icon} alt="Star" className="w-4" />
                 </div>
-                <p className="text-sm text-gray-500 mt-1">Based on 122 reviews</p>
+                <p className="text-sm text-gray-500 mt-1">{t('product_based_on_reviews')}</p>
               </div>
               
               <div className="flex-1">
-                <button className="bg-black text-white px-6 py-2 text-sm rounded-sm">Write a Review</button>
+                <button className="bg-black text-white px-6 py-2 text-sm rounded-sm">{t('product_write_review')}</button>
               </div>
             </div>
             
             <div className="border-t py-4">
-              <p className="text-gray-600 text-sm">No reviews yet. Be the first to review this product.</p>
+              <p className="text-gray-600 text-sm">{t('product_no_reviews')}</p>
             </div>
           </div>
         )}
@@ -429,7 +431,7 @@ const Product = () => {
 
       {/* Displaying related products */}
       <div className="mt-16">
-        <h2 className="text-2xl font-medium mb-8">You might also like</h2>
+        <h2 className="text-2xl font-medium mb-8">{t('product_you_might_like')}</h2>
         <RelatedProducts
           category={productData.category}
           subCategory={productData.subCategory}
