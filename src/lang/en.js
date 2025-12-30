@@ -240,13 +240,25 @@ export default {
     collection_no_products_desc: "We couldn't find any watches matching your current filters. Try adjusting your search or filters.",
     collection_clear_filters: "Clear all filters",
 
-    placeorder_whatsapp_title: "Order via WhatsApp",
-    placeorder_whatsapp_desc: "Your order will be sent directly to our team for quick processing",
+    // placeorder_whatsapp_title: "Order via WhatsApp",
+    // placeorder_whatsapp_desc: "Your order will be sent directly to our team for quick processing",
+    // placeorder_success_whatsapp: "Order sent successfully! Opening WhatsApp...",
     placeorder_send_whatsapp: "SEND ORDER VIA WHATSAPP",
-    placeorder_success_whatsapp: "Order sent successfully! Opening WhatsApp...",
     placeorder_fix_errors: "Please fix the errors in the form",
     placeorder_empty_cart: "Your cart is empty!",
 
+    // Multi Checkout
+    placeorder_whatsapp_title: "Order via WhatsApp",
+    placeorder_whatsapp_desc: "Fast confirmation & support from our team",
+    placeorder_stripe_title: "Pay with Card (Stripe)",
+    placeorder_stripe_desc: "Secure online payment - Instant delivery",
+    placeorder_cod_title: "Cash on Delivery",
+    placeorder_cod_desc: "Pay when you receive your order",
+    placeorder_button_whatsapp: "SEND VIA WHATSAPP",
+    placeorder_button_stripe: "PAY NOW WITH CARD",
+    placeorder_button_cod: "PLACE COD ORDER",
+    placeorder_cod_success: "Order placed successfully! Pay on delivery.",
+    placeorder_success_whatsapp: "Opening WhatsApp with your order details...",
 };
 
 

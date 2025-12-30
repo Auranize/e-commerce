@@ -240,11 +240,24 @@ export default {
     collection_no_products_desc: "لم نتمكن من العثور على أي ساعات تطابق الفلاتر الحالية. جرب تعديل البحث أو الفلاتر.",
     collection_clear_filters: "مسح جميع الفلاتر",
 
-    placeorder_whatsapp_title: "طلب عبر واتساب",
-    placeorder_whatsapp_desc: "سيتم إرسال طلبك مباشرة إلى فريقنا للمعالجة السريعة",
+    // placeorder_whatsapp_title: "طلب عبر واتساب",
+    // placeorder_whatsapp_desc: "سيتم إرسال طلبك مباشرة إلى فريقنا للمعالجة السريعة",
+    // placeorder_success_whatsapp: "تم إرسال الطلب بنجاح! جاري فتح واتساب...",
     placeorder_send_whatsapp: "إرسال الطلب عبر واتساب",
-    placeorder_success_whatsapp: "تم إرسال الطلب بنجاح! جاري فتح واتساب...",
     placeorder_fix_errors: "يرجى تصحيح الأخطاء في النموذج",
     placeorder_empty_cart: "سلة التسوق فارغة!",
+
+    // Multi Checkout
+placeorder_whatsapp_title: "طلب عبر واتساب",
+placeorder_whatsapp_desc: "تأكيد سريع ودعم من فريقنا",
+placeorder_stripe_title: "الدفع ببطاقة (Stripe)",
+placeorder_stripe_desc: "دفع آمن عبر الإنترنت - تسليم فوري",
+placeorder_cod_title: "الدفع عند الاستلام",
+placeorder_cod_desc: "ادفع عند استلام طلبك",
+placeorder_button_whatsapp: "إرسال عبر واتساب",
+placeorder_button_stripe: "الدفع الآن بالبطاقة",
+placeorder_button_cod: "تأكيد طلب الدفع عند الاستلام",
+placeorder_cod_success: "تم تقديم الطلب بنجاح! الدفع عند الاستلام.",
+placeorder_success_whatsapp: "جاري فتح واتساب مع تفاصيل طلبك...",
 };
 
