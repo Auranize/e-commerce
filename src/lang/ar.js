@@ -135,4 +135,27 @@ export default {
     product_media_alt: "وسائط المنتج",
     product_selected: "المنتج المحدد",
 
+    // LOGIN PAGE
+    login_title_login: "تسجيل الدخول",
+    login_title_signup: "إنشاء حساب",
+    login_name_placeholder: "الاسم",
+    login_email_placeholder: "البريد الإلكتروني",
+    login_password_placeholder: "كلمة المرور",
+    login_forgot_password: "نسيت كلمة المرور؟",
+    login_create_account: "إنشاء حساب",
+    login_login_here: "تسجيل الدخول هنا",
+    login_sign_in: "تسجيل الدخول",
+    login_sign_up: "إنشاء حساب",
+    login_success: "تم تسجيل الدخول بنجاح!",
+    login_signup_success: "تم إنشاء الحساب بنجاح!",
+    login_error_generic: "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+
+    // CART PAGE
+    cart_your: "سلة",
+    cart_cart: "التسوق",
+    cart_empty: "سلة التسوق فارغة.",
+    cart_continue_shopping: "مواصلة التسوق",
+    cart_size: "المقاس",
+    cart_remove_item: "إزالة المنتج",
+    cart_proceed_to_checkout: "المتابعة إلى الدفع",
 };

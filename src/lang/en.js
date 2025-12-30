@@ -135,6 +135,30 @@ export default {
     product_media_alt: "Product Media",
     product_selected: "Selected Product",
 
+    // LOGIN PAGE
+    login_title_login: "Login",
+    login_title_signup: "Sign Up",
+    login_name_placeholder: "Name",
+    login_email_placeholder: "Email",
+    login_password_placeholder: "Password",
+    login_forgot_password: "Forgot your password?",
+    login_create_account: "Create account",
+    login_login_here: "Login Here",
+    login_sign_in: "Sign In",
+    login_sign_up: "Sign Up",
+    login_success: "Logged in successfully!",
+    login_signup_success: "Account created successfully!",
+    login_error_generic: "Something went wrong. Please try again.",
+
+    // CART PAGE
+    cart_your: "YOUR",
+    cart_cart: "CART",
+    cart_empty: "Your cart is empty.",
+    cart_continue_shopping: "CONTINUE SHOPPING",
+    cart_size: "Size",
+    cart_remove_item: "Remove item",
+    cart_proceed_to_checkout: "PROCEED TO CHECKOUT",
+
 };
 
 
