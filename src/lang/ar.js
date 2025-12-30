@@ -188,6 +188,27 @@ export default {
     placeorder_payment_failed: "فشلت عملية الدفع. يرجى المحاولة مرة أخرى.",
     placeorder_select_method: "يرجى اختيار طريقة دفع",
     placeorder_error_generic: "حدث خطأ ما. يرجى المحاولة مرة أخرى.",
+    placeorder_processing: "جاري معالجة طلبك...",
+    placeorder_loading: "جاري التحميل...",
+
+    // Payment methods
+    placeorder_payment_cashfree: "كاش فري",
+    placeorder_payment_stripe: "سترايب",
+    placeorder_payment_razorpay: "رازورباي",
+
+    // Cart totals
+    cart_totals_title: "الإجمالي",
+    cart_subtotal: "المجموع الفرعي",
+    cart_shipping_fee: "رسوم الشحن",
+    cart_free_shipping: "شحن مجاني",
+    cart_total: "الإجمالي",
+
+    // Form validation
+    placeorder_validation_required: "هذا الحقل مطلوب",
+    placeorder_validation_email: "يرجى إدخال عنوان بريد إلكتروني صحيح",
+    placeorder_validation_phone: "يرجى إدخال رقم هاتف صحيح",
+    placeorder_validation_zipcode: "يرجى إدخال رمز بريدي صحيح",
+    // placeorder_empty_cart: "سلة التسوق فارغة. يرجى إضافة منتجات قبل تقديم الطلب.",
 
     // COLLECTION PAGE
     collection_search_placeholder: "ابحث عن ساعات فاخرة...",
@@ -218,5 +239,12 @@ export default {
     collection_no_products_title: "لم يتم العثور على ساعات",
     collection_no_products_desc: "لم نتمكن من العثور على أي ساعات تطابق الفلاتر الحالية. جرب تعديل البحث أو الفلاتر.",
     collection_clear_filters: "مسح جميع الفلاتر",
+
+    placeorder_whatsapp_title: "طلب عبر واتساب",
+    placeorder_whatsapp_desc: "سيتم إرسال طلبك مباشرة إلى فريقنا للمعالجة السريعة",
+    placeorder_send_whatsapp: "إرسال الطلب عبر واتساب",
+    placeorder_success_whatsapp: "تم إرسال الطلب بنجاح! جاري فتح واتساب...",
+    placeorder_fix_errors: "يرجى تصحيح الأخطاء في النموذج",
+    placeorder_empty_cart: "سلة التسوق فارغة!",
 };
 

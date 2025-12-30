@@ -188,6 +188,27 @@ export default {
     placeorder_payment_failed: "Payment failed. Please try again.",
     placeorder_select_method: "Please select a payment method",
     placeorder_error_generic: "Something went wrong. Please try again.",
+    placeorder_processing: "Processing your order...",
+    placeorder_loading: "Loading...",
+
+    // Payment methods
+    placeorder_payment_cashfree: "CASHFREE",
+    placeorder_payment_stripe: "Stripe",
+    placeorder_payment_razorpay: "Razorpay",
+
+    // Cart totals
+    cart_totals_title: "TOTALS",
+    cart_subtotal: "Subtotal",
+    cart_shipping_fee: "Shipping fee",
+    cart_free_shipping: "Free Shipping",
+    cart_total: "Total",
+
+    // Form validation
+    placeorder_validation_required: "This field is required",
+    placeorder_validation_email: "Please enter a valid email address",
+    placeorder_validation_phone: "Please enter a valid phone number",
+    placeorder_validation_zipcode: "Please enter a valid zip code",
+    // placeorder_empty_cart: "Your cart is empty. Please add items before placing an order.",
 
     // COLLECTION PAGE
     collection_search_placeholder: "Search for luxury watches...",
@@ -218,6 +239,13 @@ export default {
     collection_no_products_title: "No watches found",
     collection_no_products_desc: "We couldn't find any watches matching your current filters. Try adjusting your search or filters.",
     collection_clear_filters: "Clear all filters",
+
+    placeorder_whatsapp_title: "Order via WhatsApp",
+    placeorder_whatsapp_desc: "Your order will be sent directly to our team for quick processing",
+    placeorder_send_whatsapp: "SEND ORDER VIA WHATSAPP",
+    placeorder_success_whatsapp: "Order sent successfully! Opening WhatsApp...",
+    placeorder_fix_errors: "Please fix the errors in the form",
+    placeorder_empty_cart: "Your cart is empty!",
 
 };
 
