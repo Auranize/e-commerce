@@ -54,7 +54,7 @@ const Footer = () => {
           <ul className="flex flex-col gap-2 text-gray-700">
             <li>📍 {t("footer_address")}</li>
             <li>
-              📧 <a>support@watchlab.in</a>
+              📧 <a>support@thiqaf.in</a>
             </li>
             <li>
               📞{" "}
@@ -72,8 +72,8 @@ const Footer = () => {
         <hr />
         <p className="py-5 text-sm text-center">
           {t("footer_copyright")}{" "}
-          <a href="https://watchlab.in" className="font-medium text-gray-800">
-            watchlab.in
+          <a href="https://thiqaf.in" className="font-medium text-gray-800">
+            thiqaf.in
           </a>{" "}
           - {t("footer_rights")}
         </p>

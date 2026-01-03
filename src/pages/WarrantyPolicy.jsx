@@ -7,14 +7,14 @@ const WarrantyPolicy = () => {
       
       <section className="mb-6">
         <p className="text-gray-600 leading-relaxed">
-          At WatchLab, we stand behind the quality of our products. This Warranty Policy outlines the terms and conditions regarding product warranties, repairs, and replacements. By purchasing from us, you agree to the terms outlined in this policy.
+          At thiqaf, we stand behind the quality of our products. This Warranty Policy outlines the terms and conditions regarding product warranties, repairs, and replacements. By purchasing from us, you agree to the terms outlined in this policy.
         </p>
       </section>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">1. Manufacturer's Warranty</h2>
         <p className="text-gray-600 leading-relaxed">
-          All watches sold on WatchLab come with the original manufacturer's warranty. The warranty period varies by brand and model, typically ranging from 1 to 5 years from the date of purchase. The manufacturer's warranty covers manufacturing defects and mechanical failures under normal use conditions.
+          All watches sold on thiqaf come with the original manufacturer's warranty. The warranty period varies by brand and model, typically ranging from 1 to 5 years from the date of purchase. The manufacturer's warranty covers manufacturing defects and mechanical failures under normal use conditions.
         </p>
       </section>
 
@@ -23,7 +23,7 @@ const WarrantyPolicy = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">2. Warranty Exclusions</h2>
         <p className="text-gray-600 leading-relaxed mb-3">
-          The following are not covered under either the manufacturer's warranty or the WatchLab Extended Warranty:
+          The following are not covered under either the manufacturer's warranty or the thiqaf Extended Warranty:
         </p>
         <ul className="list-disc pl-6 space-y-1 text-gray-600">
           <li>Damage resulting from accidents, misuse, or abuse</li>
@@ -62,14 +62,14 @@ const WarrantyPolicy = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">5. Warranty Transfer</h2>
         <p className="text-gray-600 leading-relaxed">
-          The manufacturer's warranty and WatchLab Extended Warranty are tied to the original purchaser and are not transferable to subsequent owners.
+          The manufacturer's warranty and thiqaf Extended Warranty are tied to the original purchaser and are not transferable to subsequent owners.
         </p>
       </section>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">6. Return Shipping</h2>
         <p className="text-gray-600 leading-relaxed">
-          For warranty repairs, WatchLab will cover the return shipping costs to the customer. For non-warranty repairs, the customer is responsible for both the initial shipping to our service center and the return shipping costs.
+          For warranty repairs, thiqaf will cover the return shipping costs to the customer. For non-warranty repairs, the customer is responsible for both the initial shipping to our service center and the return shipping costs.
         </p>
       </section>
 
@@ -87,7 +87,7 @@ const WarrantyPolicy = () => {
           <p className="flex items-center text-gray-700 mb-2">
             <span className="mr-2">📧</span>
             <span className="font-medium">Email:</span> 
-            <a href="mailto:support@watchlab.in" className="ml-2 text-blue-600 hover:text-blue-800">support@watchlab.in</a>
+            <a href="mailto:support@thiqaf.in" className="ml-2 text-blue-600 hover:text-blue-800">support@thiqaf.in</a>
           </p>
           <p className="flex items-center text-gray-700">
             <span className="mr-2">📞</span>
@@ -99,7 +99,7 @@ const WarrantyPolicy = () => {
 
       <footer className="mt-8 pt-4 border-t text-sm text-gray-500 text-center">
         <p>Last updated: April 27, 2025</p>
-        <p className="mt-1">© 2025 WatchLab. All rights reserved.</p>
+        <p className="mt-1">© 2025 thiqaf. All rights reserved.</p>
       </footer>
     </div>
   );

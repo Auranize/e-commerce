@@ -7,7 +7,7 @@ const PrivacyPolicy = () => {
       
       <section className="mb-6">
         <p className="text-gray-600 leading-relaxed">
-          At WatchLab, we value and respect your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or make a purchase. Please read this privacy policy carefully. By accessing or using our website, you acknowledge that you have read, understood, and agree to be bound by all the terms outlined in this privacy policy.
+          At thiqaf, we value and respect your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or make a purchase. Please read this privacy policy carefully. By accessing or using our website, you acknowledge that you have read, understood, and agree to be bound by all the terms outlined in this privacy policy.
         </p>
       </section>
 
@@ -79,7 +79,7 @@ const PrivacyPolicy = () => {
         <div className="pl-4 border-l-4 border-gray-100 mb-3">
           <h3 className="font-medium text-gray-700 mb-2">Business Transfers</h3>
           <p className="text-gray-600 leading-relaxed">
-            If WatchLab is involved in a merger, acquisition, or sale of all or a portion of its assets, your information may be transferred as part of that transaction. We will notify you via email and/or a prominent notice on our website of any change in ownership or uses of your personal information.
+            If thiqaf is involved in a merger, acquisition, or sale of all or a portion of its assets, your information may be transferred as part of that transaction. We will notify you via email and/or a prominent notice on our website of any change in ownership or uses of your personal information.
           </p>
         </div>
         <div className="pl-4 border-l-4 border-gray-100">
@@ -144,7 +144,7 @@ const PrivacyPolicy = () => {
           <p className="flex items-center text-gray-700 mb-2">
             <span className="mr-2">📧</span>
             <span className="font-medium">Email:</span> 
-            <a href="mailto:support@watchlab.in" className="ml-2 text-blue-600 hover:text-blue-800">support@watchlab.in</a>
+            <a href="mailto:support@thiqaf.in" className="ml-2 text-blue-600 hover:text-blue-800">support@thiqaf.in</a>
           </p>
           <p className="flex items-center text-gray-700">
             <span className="mr-2">📞</span>
@@ -156,7 +156,7 @@ const PrivacyPolicy = () => {
 
       <footer className="mt-8 pt-4 border-t text-sm text-gray-500 text-center">
         <p>Last updated: April 27, 2025</p>
-        <p className="mt-1">© 2025 WatchLab. All rights reserved.</p>
+        <p className="mt-1">© 2025 thiqaf. All rights reserved.</p>
       </footer>
     </div>
   );

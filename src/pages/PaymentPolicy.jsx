@@ -7,14 +7,14 @@ const PaymentPolicy = () => {
       
       <section className="mb-6">
         <p className="text-gray-600 leading-relaxed">
-          Thank you for shopping with WatchLab. This Payment Policy outlines the terms and conditions related to payments for products purchased through our website. By making a purchase, you agree to comply with and be bound by the following policy.
+          Thank you for shopping with thiqaf. This Payment Policy outlines the terms and conditions related to payments for products purchased through our website. By making a purchase, you agree to comply with and be bound by the following policy.
         </p>
       </section>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">1. Accepted Payment Methods</h2>
         <p className="text-gray-600 leading-relaxed mb-3">
-          WatchLab accepts the following payment methods:
+          thiqaf accepts the following payment methods:
         </p>
         <ul className="list-disc pl-6 space-y-1 text-gray-600">
           <li>Credit Cards (Visa, MasterCard, American Express)</li>
@@ -29,7 +29,7 @@ const PaymentPolicy = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">2. Payment Security</h2>
         <p className="text-gray-600 leading-relaxed">
-          All payment information is encrypted and processed securely. WatchLab does not store your credit card details. All payment transactions are processed through secure and PCI-DSS compliant payment gateways. While we implement various security measures to protect your personal information, we cannot guarantee that all communications or transactions will be completely secure.
+          All payment information is encrypted and processed securely. thiqaf does not store your credit card details. All payment transactions are processed through secure and PCI-DSS compliant payment gateways. While we implement various security measures to protect your personal information, we cannot guarantee that all communications or transactions will be completely secure.
         </p>
       </section>
 
@@ -85,7 +85,7 @@ const PaymentPolicy = () => {
           <p className="flex items-center text-gray-700 mb-2">
             <span className="mr-2">📧</span>
             <span className="font-medium">Email:</span> 
-            <a href="mailto:support@watchlab.in" className="ml-2 text-blue-600 hover:text-blue-800">support@watchlab.in</a>
+            <a href="mailto:support@thiqaf.in" className="ml-2 text-blue-600 hover:text-blue-800">support@thiqaf.in</a>
           </p>
           <p className="flex items-center text-gray-700">
             <span className="mr-2">📞</span>
@@ -97,7 +97,7 @@ const PaymentPolicy = () => {
 
       <footer className="mt-8 pt-4 border-t text-sm text-gray-500 text-center">
         <p>Last updated: April 27, 2025</p>
-        <p className="mt-1">© 2025 WatchLab. All rights reserved.</p>
+        <p className="mt-1">© 2025 thiqaf. All rights reserved.</p>
       </footer>
     </div>
   );

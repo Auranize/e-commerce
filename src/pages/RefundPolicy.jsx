@@ -8,7 +8,7 @@ const RefundPolicy = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">Overview</h2>
         <p className="text-gray-600 leading-relaxed">
-          At WatchLab, we strive to ensure complete customer satisfaction with every purchase. 
+          At thiqaf, we strive to ensure complete customer satisfaction with every purchase. 
           Please review our refund policy carefully before completing your order.
         </p>
       </section>
@@ -16,7 +16,7 @@ const RefundPolicy = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">No-Refund Policy</h2>
         <p className="text-gray-600 leading-relaxed">
-          WatchLab maintains a <span className="text-red-600 font-medium">strict no-refund policy</span>. All sales are considered final once processed, 
+          thiqaf maintains a <span className="text-red-600 font-medium">strict no-refund policy</span>. All sales are considered final once processed, 
           and we do not accept cancellations or process refunds under normal circumstances.
         </p>
         <p className="text-gray-600 leading-relaxed mt-3">
@@ -49,7 +49,7 @@ const RefundPolicy = () => {
           <p className="flex items-center text-gray-700 mb-2">
             <span className="mr-2">📧</span>
             <span className="font-medium">Email:</span> 
-            <a href="mailto:support@watchlab.in" className="ml-2 text-blue-600 hover:text-blue-800">support@watchlab.in</a>
+            <a href="mailto:support@thiqaf.in" className="ml-2 text-blue-600 hover:text-blue-800">support@thiqaf.in</a>
           </p>
           <p className="flex items-center text-gray-700">
             <span className="mr-2">📞</span>

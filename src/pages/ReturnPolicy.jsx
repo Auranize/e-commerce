@@ -8,7 +8,7 @@ const ReturnPolicy = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">Overview</h2>
         <p className="text-gray-600 leading-relaxed">
-          At WatchLab, we pride ourselves on the quality and craftsmanship of our timepieces. 
+          At thiqaf, we pride ourselves on the quality and craftsmanship of our timepieces. 
           Each watch is carefully inspected before shipping to ensure you receive exactly what 
           you ordered in perfect condition.
         </p>
@@ -17,7 +17,7 @@ const ReturnPolicy = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">No-Return Policy</h2>
         <p className="text-gray-600 leading-relaxed mb-3">
-          WatchLab operates under a <span className="text-red-600 font-medium">strict no-return policy</span> for all purchases. 
+          thiqaf operates under a <span className="text-red-600 font-medium">strict no-return policy</span> for all purchases. 
           Once an order is placed and delivered, we do not accept returns for:
         </p>
         <ul className="text-gray-600 space-y-1 pl-5 list-disc">
@@ -68,7 +68,7 @@ const ReturnPolicy = () => {
           <p className="flex items-center text-gray-700 mb-2">
             <span className="mr-2">📧</span>
             <span className="font-medium">Email:</span> 
-            <a href="mailto:returns@watchlab.com" className="ml-2 text-blue-600 hover:text-blue-800">support@watchlab.com</a>
+            <a href="mailto:returns@thiqaf.com" className="ml-2 text-blue-600 hover:text-blue-800">support@thiqaf.com</a>
           </p>
           <p className="flex items-center text-gray-700 mb-2">
             <span className="mr-2">📞</span>

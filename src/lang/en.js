@@ -78,9 +78,9 @@ export default {
 
 
     // Footer
-    footer_brand_name: "WatchLab",
+    footer_brand_name: "thiqaf",
     footer_about_text:
-        "At WatchLab, we curate the finest timepieces that blend craftsmanship, innovation, and style. Whether you're a collector or a new buyer, our collection offers unmatched quality and timeless appeal.",
+        "At thiqaf, we curate the finest timepieces that blend craftsmanship, innovation, and style. Whether you're a collector or a new buyer, our collection offers unmatched quality and timeless appeal.",
 
     footer_company_title: "COMPANY",
     footer_home: "Home",

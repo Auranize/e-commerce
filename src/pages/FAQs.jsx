@@ -22,7 +22,7 @@ const FAQ = () => {
     },
     {
       question: "How can I return or exchange a product?",
-      answer: "WatchLab follows a strict no-refund policy. All sales are final. However, if you receive a damaged product, you can request a replacement by providing a clear unboxing video as proof within 24 hours of delivery. Please contact our customer support team to initiate the process."
+      answer: "thiqaf follows a strict no-refund policy. All sales are final. However, if you receive a damaged product, you can request a replacement by providing a clear unboxing video as proof within 24 hours of delivery. Please contact our customer support team to initiate the process."
     },
     {
       question: "Are the watches authentic?",
@@ -54,7 +54,7 @@ const FAQ = () => {
     },
     {
       question: "How do I contact customer support?",
-      answer: "You can reach our customer support team via email at support@watchlab.in or by phone at +91 8075725539. Our support hours are Monday through Saturday, 10:00 AM to 7:00 PM IST."
+      answer: "You can reach our customer support team via email at support@thiqaf.in or by phone at +91 8075725539. Our support hours are Monday through Saturday, 10:00 AM to 7:00 PM IST."
     }
   ];
 
@@ -64,7 +64,7 @@ const FAQ = () => {
       
       <section className="mb-6">
         <p className="text-gray-600 leading-relaxed mb-8">
-          Find answers to the most common questions about WatchLab products, orders, shipping, and more. If you can't find what you're looking for, please don't hesitate to contact our customer support team.
+          Find answers to the most common questions about thiqaf products, orders, shipping, and more. If you can't find what you're looking for, please don't hesitate to contact our customer support team.
         </p>
         
         <div className="space-y-4">
@@ -103,7 +103,7 @@ const FAQ = () => {
         </p>
         <div className="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
           <a 
-            href="mailto:support@watchlab.in" 
+            href="mailto:support@thiqaf.in" 
             className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700"
           >
             Email Support
@@ -119,7 +119,7 @@ const FAQ = () => {
 
       <footer className="mt-8 pt-4 border-t text-sm text-gray-500 text-center">
         <p>Last updated: April 27, 2025</p>
-        <p className="mt-1">© 2025 WatchLab. All rights reserved.</p>
+        <p className="mt-1">© 2025 thiqaf. All rights reserved.</p>
       </footer>
     </div>
   );

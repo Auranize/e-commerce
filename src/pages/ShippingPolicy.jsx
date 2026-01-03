@@ -7,7 +7,7 @@ const ShippingPolicy = () => {
       
       <section className="mb-6">
         <p className="text-gray-600 leading-relaxed">
-          Thank you for shopping with WatchLab. This Shipping Policy outlines how we handle the delivery of products purchased through our website. By placing an order, you agree to the terms outlined in this policy.
+          Thank you for shopping with thiqaf. This Shipping Policy outlines how we handle the delivery of products purchased through our website. By placing an order, you agree to the terms outlined in this policy.
         </p>
       </section>
 
@@ -21,7 +21,7 @@ const ShippingPolicy = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">2. Shipping Methods & Timeframes</h2>
         <p className="text-gray-600 leading-relaxed mb-3">
-          WatchLab partners with reliable courier services to ensure safe and timely delivery of your products.
+          thiqaf partners with reliable courier services to ensure safe and timely delivery of your products.
           (for now we are provding free delivery within 4-5 business days)
         </p>
         <div className="overflow-x-auto">
@@ -77,14 +77,14 @@ const ShippingPolicy = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">5. Shipping Address</h2>
         <p className="text-gray-600 leading-relaxed">
-          It is your responsibility to provide accurate shipping information during checkout. WatchLab is not responsible for orders shipped to incorrect addresses provided by customers. Any additional shipping charges incurred due to address changes after order processing will be borne by the customer.
+          It is your responsibility to provide accurate shipping information during checkout. thiqaf is not responsible for orders shipped to incorrect addresses provided by customers. Any additional shipping charges incurred due to address changes after order processing will be borne by the customer.
         </p>
       </section>
 
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">6. Customs & Import Duties</h2>
         <p className="text-gray-600 leading-relaxed">
-          For international orders, you may be subject to import duties and taxes imposed by the destination country. These charges are the responsibility of the recipient and are not included in our shipping fees. WatchLab has no control over these charges and cannot predict their amount.
+          For international orders, you may be subject to import duties and taxes imposed by the destination country. These charges are the responsibility of the recipient and are not included in our shipping fees. thiqaf has no control over these charges and cannot predict their amount.
         </p>
       </section>
 
@@ -109,7 +109,7 @@ const ShippingPolicy = () => {
           <p className="flex items-center text-gray-700 mb-2">
             <span className="mr-2">📧</span>
             <span className="font-medium">Email:</span> 
-            <a href="mailto:support@watchlab.in" className="ml-2 text-blue-600 hover:text-blue-800">support@watchlab.in</a>
+            <a href="mailto:support@thiqaf.in" className="ml-2 text-blue-600 hover:text-blue-800">support@thiqaf.in</a>
           </p>
           <p className="flex items-center text-gray-700">
             <span className="mr-2">📞</span>
@@ -121,7 +121,7 @@ const ShippingPolicy = () => {
 
       <footer className="mt-8 pt-4 border-t text-sm text-gray-500 text-center">
         <p>Last updated: April 27, 2025</p>
-        <p className="mt-1">© 2025 WatchLab. All rights reserved.</p>
+        <p className="mt-1">© 2025 thiqaf. All rights reserved.</p>
       </footer>
     </div>
   );

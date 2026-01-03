@@ -7,7 +7,7 @@ const Terms = () => {
       
       <section className="mb-6">
         <p className="text-gray-600 leading-relaxed">
-          Welcome to WatchLab. By accessing our website and/or making a purchase, you engage in our service and agree to be bound by the following terms and conditions. Please read these carefully before completing your purchase.
+          Welcome to thiqaf. By accessing our website and/or making a purchase, you engage in our service and agree to be bound by the following terms and conditions. Please read these carefully before completing your purchase.
         </p>
       </section>
 
@@ -58,7 +58,7 @@ const Terms = () => {
       <section className="mb-6">
         <h2 className="text-xl font-semibold mb-3 text-gray-700">6. Returns & Refunds</h2>
         <p className="text-gray-600 leading-relaxed mb-3">
-          All sales are final. WatchLab follows a strict no-refund policy. We do not accept cancellations or process refunds under normal circumstances.
+          All sales are final. thiqaf follows a strict no-refund policy. We do not accept cancellations or process refunds under normal circumstances.
         </p>
         <p className="text-gray-600 leading-relaxed">
           In the exceptional case of receiving a damaged product, you may request a refund by providing clear video evidence of the damage during unboxing. Such requests must be submitted within 24 hours of delivery to be considered valid.
@@ -93,7 +93,7 @@ const Terms = () => {
           <p className="flex items-center text-gray-700 mb-2">
             <span className="mr-2">📧</span>
             <span className="font-medium">Email:</span> 
-            <a href="mailto:support@watchlab.in" className="ml-2 text-blue-600 hover:text-blue-800">support@watchlab.in</a>
+            <a href="mailto:support@thiqaf.in" className="ml-2 text-blue-600 hover:text-blue-800">support@thiqaf.in</a>
           </p>
           <p className="flex items-center text-gray-700">
             <span className="mr-2">📞</span>
@@ -105,7 +105,7 @@ const Terms = () => {
 
       <footer className="mt-8 pt-4 border-t text-sm text-gray-500 text-center">
         <p>Last updated: April 27, 2025</p>
-        <p className="mt-1">© 2025 WatchLab. All rights reserved.</p>
+        <p className="mt-1">© 2025 thiqaf. All rights reserved.</p>
       </footer>
     </div>
   );

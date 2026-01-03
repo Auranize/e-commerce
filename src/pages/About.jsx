@@ -12,7 +12,7 @@ const About = () => {
       <div className='my-5 flex flex-col md:flex-row gap-16'>
           <img className='w-full md:max-w-[450px]' src={assets.about_img} alt="Our Watches" />
           <div className='flex flex-col justify-center gap-6 md:w-2/4 text-gray-600'>
-            <p>At watchlab, we are passionate about crafting timeless, precision-engineered watches. Each piece is designed with the finest materials, ensuring unmatched quality and durability. We believe in offering more than just a timepiece – we offer a legacy of craftsmanship and elegance.</p>
+            <p>At thiqaf, we are passionate about crafting timeless, precision-engineered watches. Each piece is designed with the finest materials, ensuring unmatched quality and durability. We believe in offering more than just a timepiece – we offer a legacy of craftsmanship and elegance.</p>
             <p>Our team of skilled artisans and watchmakers pour their expertise into every watch, ensuring you wear a symbol of craftsmanship that’s both functional and beautiful. We are committed to delivering only the best for those who appreciate the art of watchmaking.</p>
             <b className='text-gray-800'>Our Mission</b>
             <p>Our mission is simple: to create watches that embody both style and functionality. We believe that a great watch should not only keep time but also make a statement. We combine tradition with innovation to deliver exceptional timepieces that stand the test of time.</p>
